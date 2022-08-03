@@ -1,0 +1,28 @@
+@use 'variables' as v;
+
+.vr{
+
+    &__image{
+        
+        & > img{
+            width: 100%;
+        }
+    }
+
+    h2{
+        margin-top: 2rem;
+        font-size: 2.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    p{
+        font-family: 'Alata', sans-serif;
+        color: v.$dark-gray;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 2;
+        max-width: 90%;
+    }
+}
