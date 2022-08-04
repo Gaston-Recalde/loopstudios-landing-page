@@ -97,4 +97,43 @@ section {
   margin-top: 1.5rem;
   line-height: 2;
   max-width: 90%;
+}
+
+.creations h2 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: hsl(0deg, 0%, 41%);
+}
+.creations .creation {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.creations .creation__img {
+  width: 100%;
+}
+.creations .creation__h4 {
+  position: relative;
+  display: inline-block;
+  top: -4.5rem;
+  z-index: 2;
+  color: hsl(0deg, 0%, 100%);
+  text-align: start;
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 50%;
+  left: 0.8rem;
+}
+.creations__button {
+  border: 1.7px solid hsl(0deg, 0%, 41%);
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 41%);
 }/*# sourceMappingURL=style.css.map */
