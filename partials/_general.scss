@@ -26,3 +26,9 @@ body{
 section{
     padding-top: 7rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .container{
+        width: v.$container-desktop;
+    }
+}

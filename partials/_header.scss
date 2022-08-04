@@ -67,3 +67,83 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .header{
+        background-image: url('../images/desktop/image-hero.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    
+        .nav{
+            position: relative;
+            padding-top: 2.7rem;
+            
+    
+            &__container{
+    
+                display: flex;
+                // justify-content: space-between; 
+                gap: 2rem;
+                align-items: center;
+            }
+    
+            &__logo > img{
+                width: 90%;
+            }
+    
+            &__ul{
+                position: inherit;
+                background-color: transparent;
+                width: 100%;
+                height: auto;
+
+                display: flex;
+                justify-content: flex-end;
+                gap: 2.5rem;
+                
+            }
+    
+            &__li{
+                margin-top: 1.2rem;
+                // display: inline-block;
+                color: v.$white;
+            }
+    
+            &__li > a{
+                font-size: 1rem;
+                text-transform: capitalize;
+                color: v.$white;
+            }
+    
+            &__menu-btn{
+                font-size: 2rem;
+                color: v.$white;
+                background-color: transparent;
+                display: none;
+    
+            }
+    
+            &__close-btn{
+                display: none;
+            }
+        }
+    
+        &__title{
+            margin-left: 11%;
+            margin-top: 9rem;
+            border: 2px solid v.$white;
+            padding: 1.2rem 1.5rem;
+            width: 37%;
+    
+            & > h1{
+                text-transform: uppercase;
+                color: v.$white;
+                font-weight: 300;
+                font-size: 3.5rem;
+                letter-spacing: 2px;
+                line-height: 1.1;
+            }
+        }
+    }
+}
