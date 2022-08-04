@@ -1,0 +1,30 @@
+@use 'variables' as v;
+
+.footer{
+    background-color: v.$black;
+    color: v.$white;
+    padding: 4rem 0;
+    text-align: center;
+
+    &__logo{
+        margin-bottom: 3rem;
+    }
+
+    &__li{
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    &__socials{
+        margin: 3rem 0 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    &__copy{
+        color: v.$very-dark-gray;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+}

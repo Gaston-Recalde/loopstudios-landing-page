@@ -99,6 +99,9 @@ section {
   max-width: 90%;
 }
 
+.creations {
+  padding-bottom: 5rem;
+}
 .creations h2 {
   font-size: 2.1rem;
   text-transform: uppercase;
@@ -136,4 +139,29 @@ section {
   margin: 0 auto;
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(0deg, 0%, 41%);
+}
+
+.footer {
+  background-color: hsl(0deg, 0%, 0%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 4rem 0;
+  text-align: center;
+}
+.footer__logo {
+  margin-bottom: 3rem;
+}
+.footer__li {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+.footer__socials {
+  margin: 3rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer__copy {
+  color: hsl(0deg, 0%, 41%);
+  font-weight: 600;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=style.css.map */
