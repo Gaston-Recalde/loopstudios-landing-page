@@ -85,10 +85,7 @@ section {
   line-height: 1.1;
 }
 
-@media screen and (min-width: 1440px) {
-  .header {
-    background-image: url("../images/desktop/image-hero.jpg");
-  }
+@media screen and (min-width: 1024px) {
   .header .nav__container {
     gap: 2rem;
   }
@@ -103,6 +100,7 @@ section {
   .header .nav__li {
     color: hsl(0deg, 0%, 100%);
     font-weight: 600;
+    margin-top: 0;
   }
   .header .nav__li > a {
     font-size: 1rem;
@@ -115,6 +113,14 @@ section {
   .header__title {
     margin-left: 11%;
     margin-top: 9rem;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    background-image: url("../images/desktop/image-hero.jpg");
+  }
+  .header__title {
     width: 37%;
   }
 }
@@ -151,9 +157,9 @@ section {
     color: hsl(0deg, 0%, 41%);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .vr {
-    height: 40rem;
+    height: 32rem;
   }
   .vr__image > img {
     width: 63%;
@@ -175,6 +181,41 @@ section {
   }
   .vr__info p {
     text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vr {
+    height: 35rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .vr {
+    height: 40rem;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .vr {
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .vr {
+    margin-bottom: 8rem;
+  }
+}
+@media screen and (min-width: 2160px) {
+  .vr {
+    margin-bottom: 12rem;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .vr {
+    margin-bottom: 15rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .vr {
+    margin-bottom: 20rem;
   }
 }
 .creations {
@@ -227,6 +268,9 @@ section {
   .creations .creation {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+  }
+  .creations__button {
+    margin: 0;
   }
 }
 @media screen and (min-width: 1440px) {
