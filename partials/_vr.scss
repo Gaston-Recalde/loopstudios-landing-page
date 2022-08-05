@@ -26,3 +26,46 @@
         max-width: 90%;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .vr{
+        height: 40rem;
+
+        &__image{
+            // display: inline-block;
+            
+            & > img{
+                width: 63%;
+            }
+        }
+
+        &__info{
+            position: relative;
+            display: inline-block;
+            width: 49%;
+            top: -310px;
+            left: 50%;
+            background-color: white;
+            padding: 2.5rem 0rem 2.5rem 4rem;
+
+            h2{
+                margin-top: 2rem;
+                font-size: 2.5rem;
+                text-align: start;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: v.$very-dark-gray;
+            }
+        
+            p{
+                font-family: 'Alata', sans-serif;
+                color: v.$very-dark-gray;
+                text-align: start;
+                margin-top: 1.5rem;
+                line-height: 2;
+                max-width: 90%;
+            }
+        }
+    
+    }
+}

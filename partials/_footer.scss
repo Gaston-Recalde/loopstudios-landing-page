@@ -28,3 +28,36 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .footer{
+
+        &__container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        &__div1{
+            text-align: start;
+        }
+
+        &__ul{
+            display: flex;
+            gap: 2rem;
+        }
+    
+        &__li{
+
+            font-weight: 600;
+        }
+
+        &__div2{
+            text-align: end;
+        }
+    
+        &__socials{
+            margin: 0rem 0 4rem;
+            justify-content: end;
+        }
+    }
+}

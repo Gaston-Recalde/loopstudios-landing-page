@@ -116,6 +116,7 @@ section {
   .header .nav__li {
     margin-top: 1.2rem;
     color: hsl(0deg, 0%, 100%);
+    font-weight: 600;
   }
   .header .nav__li > a {
     font-size: 1rem;
@@ -166,7 +167,41 @@ section {
   max-width: 90%;
 }
 
+@media screen and (min-width: 1440px) {
+  .vr {
+    height: 40rem;
+  }
+  .vr__image > img {
+    width: 63%;
+  }
+  .vr__info {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    top: -310px;
+    left: 50%;
+    background-color: white;
+    padding: 2.5rem 0rem 2.5rem 4rem;
+  }
+  .vr__info h2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: hsl(0deg, 0%, 41%);
+  }
+  .vr__info p {
+    font-family: "Alata", sans-serif;
+    color: hsl(0deg, 0%, 41%);
+    text-align: start;
+    margin-top: 1.5rem;
+    line-height: 2;
+    max-width: 90%;
+  }
+}
 .creations {
+  position: relative;
   padding-bottom: 5rem;
 }
 .creations h2 {
@@ -182,6 +217,9 @@ section {
 }
 .creations .creation__img {
   width: 100%;
+}
+.creations .creation__img-desktop {
+  display: none;
 }
 .creations .creation__h4 {
   position: relative;
@@ -208,6 +246,37 @@ section {
   color: hsl(0deg, 0%, 41%);
 }
 
+@media screen and (min-width: 1440px) {
+  .creations {
+    padding-bottom: 5rem;
+  }
+  .creations h2 {
+    font-size: 2.5rem;
+    text-align: start;
+  }
+  .creations .creation {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .creations .creation__img-mobile {
+    display: none;
+  }
+  .creations .creation__img-desktop {
+    display: inline-block;
+  }
+  .creations .creation__h4 {
+    left: 2rem;
+    top: -7rem;
+    font-weight: 600;
+    width: 70%;
+  }
+  .creations__button {
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    width: 20%;
+  }
+}
 .footer {
   background-color: hsl(0deg, 0%, 0%);
   color: hsl(0deg, 0%, 100%);
@@ -231,4 +300,28 @@ section {
   color: hsl(0deg, 0%, 41%);
   font-weight: 600;
   font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .footer__div1 {
+    text-align: start;
+  }
+  .footer__ul {
+    display: flex;
+    gap: 2rem;
+  }
+  .footer__li {
+    font-weight: 600;
+  }
+  .footer__div2 {
+    text-align: end;
+  }
+  .footer__socials {
+    margin: 0rem 0 4rem;
+    justify-content: end;
+  }
 }/*# sourceMappingURL=style.css.map */
