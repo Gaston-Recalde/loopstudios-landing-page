@@ -33,6 +33,12 @@
 
         &__li{
             margin-top: 1.2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid transparent;
+        }
+
+        &__li:hover{
+            border-bottom: 1px solid v.$white;
         }
 
         &__li > a{
@@ -112,7 +118,7 @@
         }
     
         &__title{
-            margin-left: 11%;
+            margin-left: 7%;
             margin-top: 9rem;
             width: 40%;
         }
@@ -124,6 +130,7 @@
         background-image: url('../images/desktop/image-hero.jpg');
 
         &__title{
+            margin-left: 11%;
             width: 37%;
         }
     }

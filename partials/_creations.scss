@@ -37,6 +37,18 @@
             width: 50%;
             left: 0.8rem;
         }
+
+        &__art:hover{
+
+            .creation__img{
+                opacity: 0.4;
+
+            }
+
+            h4{
+                color: v.$black;
+            }
+        }
     }
 
     &__button{
@@ -49,6 +61,11 @@
         margin: 0 auto;
         background-color: v.$white;
         color: v.$very-dark-gray;
+    }
+
+    &__button:hover{
+        background-color: v.$black;
+        color: v.$white;
     }
 }
 

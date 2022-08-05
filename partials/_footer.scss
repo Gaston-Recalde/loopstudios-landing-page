@@ -47,8 +47,13 @@
         }
     
         &__li{
-
+            padding-bottom: 0.5rem;
             font-weight: 500;
+            border-bottom: 1px solid transparent;
+        }
+
+        &__li:hover{
+            border-bottom: 1px solid v.$white;
         }
 
         &__div2{
@@ -56,8 +61,18 @@
         }
     
         &__socials{
-            margin: 0rem 0 3.7rem;
+            margin: 0rem 0 3.5rem;
             justify-content: end;
+        }
+
+        &__icon{
+            width: 100%;
+            border-bottom: 1px solid transparent;
+        }
+
+        &__icon:hover{
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid v.$white;
         }
     }
 }
