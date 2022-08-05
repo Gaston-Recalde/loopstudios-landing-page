@@ -27,6 +27,26 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .vr{
+
+        &__info{
+            width: 75%;
+            margin: 0 auto;
+
+            h2{
+                margin-top: 2.5rem;
+                font-size: 2.5rem;
+                font-weight: 500;
+            }
+        
+            p{
+                color: v.$very-dark-gray;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .vr{
         height: 40rem;
@@ -52,18 +72,11 @@
                 margin-top: 2rem;
                 font-size: 2.5rem;
                 text-align: start;
-                text-transform: uppercase;
                 font-weight: 600;
-                color: v.$very-dark-gray;
             }
         
             p{
-                font-family: 'Alata', sans-serif;
-                color: v.$very-dark-gray;
                 text-align: start;
-                margin-top: 1.5rem;
-                line-height: 2;
-                max-width: 90%;
             }
         }
     

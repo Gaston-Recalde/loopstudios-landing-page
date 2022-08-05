@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     .footer{
 
         &__container{
@@ -43,12 +43,12 @@
 
         &__ul{
             display: flex;
-            gap: 2rem;
+            gap: 1rem;
         }
     
         &__li{
 
-            font-weight: 600;
+            font-weight: 500;
         }
 
         &__div2{
@@ -56,8 +56,17 @@
         }
     
         &__socials{
-            margin: 0rem 0 4rem;
+            margin: 0rem 0 3.7rem;
             justify-content: end;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer{
+
+        &__ul{
+            gap: 2rem;
         }
     }
 }
