@@ -17,7 +17,7 @@
         }
 
         &__logo{
-            z-index: 3;
+            z-index: 6;
         }
 
         &__logo > img{
@@ -35,6 +35,8 @@
             gap: 0.7rem;
             flex-direction: column;
             padding-top: 8rem;
+
+            z-index: 5;
 
             display: none;
         }
@@ -71,7 +73,7 @@
             color: v.$white;
             background-color: transparent;
             cursor: pointer;
-            z-index: 3;
+            z-index: 6;
 
             display: none;
         }

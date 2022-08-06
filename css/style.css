@@ -45,7 +45,7 @@ section {
   align-items: center;
 }
 .header .nav__logo {
-  z-index: 3;
+  z-index: 6;
 }
 .header .nav__logo > img {
   width: 90%;
@@ -60,6 +60,7 @@ section {
   gap: 0.7rem;
   flex-direction: column;
   padding-top: 8rem;
+  z-index: 5;
   display: none;
 }
 .header .nav__li {
@@ -86,7 +87,7 @@ section {
   color: hsl(0deg, 0%, 100%);
   background-color: transparent;
   cursor: pointer;
-  z-index: 3;
+  z-index: 6;
   display: none;
 }
 .header__title {
