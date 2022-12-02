@@ -40,6 +40,8 @@
 
         &__art:hover{
 
+            cursor: pointer;
+
             .creation__img{
                 opacity: 0.4;
 
@@ -64,6 +66,7 @@
     }
 
     &__button:hover{
+        cursor: pointer;
         background-color: v.$black;
         color: v.$white;
     }
@@ -113,7 +116,6 @@
         }
     
         &__button{
-            
             position: absolute;
             top: 7rem;
             right: 0;

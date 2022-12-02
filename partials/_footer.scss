@@ -53,6 +53,7 @@
         }
 
         &__li:hover{
+            cursor: pointer;
             border-bottom: 1px solid v.$white;
         }
 
@@ -67,12 +68,17 @@
 
         &__icon{
             width: 100%;
+            padding-bottom: 0.5rem;
             border-bottom: 1px solid transparent;
         }
 
         &__icon:hover{
-            padding-bottom: 0.5rem;
+            cursor: pointer;
             border-bottom: 1px solid v.$white;
+        }
+
+        &__copy{
+            margin-top: -0.5rem;
         }
     }
 }
